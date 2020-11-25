@@ -1,7 +1,7 @@
 var details = [
     data1 = {
         title: "testing issue number one test ichi",
-        date: "March 9, 2017 11:59am (0 day ago)",
+        date: "2020-11-25",
         Help_topic: "PAY VIA QR",
         status: "Open",
         name: "mary An Camarador",
@@ -14,7 +14,7 @@ var details = [
     },
     data2 = {
         title: "testing issue number two test ni",
-        date: "March 9, 2017 11:59am (0 day ago)",
+        date: "2020-11-24",
         Help_topic: "ACCOUNT BILLING",
         status: "Open",
         name: "mary An Camarador",
@@ -27,7 +27,7 @@ var details = [
     },
     data3 = {
         title: "testing issue number three test san",
-        date: "March 9, 2017 11:59am (0 day ago)",
+        date: "2017-03-09",
         Help_topic: "REGISTRATION",
         status: "Open",
         name: "mary An Camarador",
@@ -40,7 +40,7 @@ var details = [
     },
     data4 = {
         title: "testing issue number four test yon",
-        date: "March 9, 2017 11:59am (0 day ago)",
+        date: "2017-03-09",
         Help_topic: "PAY VIA QR",
         status: "Open",
         name: "mary An Camarador",
@@ -53,7 +53,7 @@ var details = [
     },
     data5 = {
         title: "testing issue number five test go",
-        date: "March 7, 2017 11:59am (0 day ago)",
+        date: "2017-03-07",
         Help_topic: "PAY VIA QR",
         status: "Open",
         name: "mary An Camarador",
@@ -66,7 +66,7 @@ var details = [
     },
     data6 = {
         title: "testing issue number six test roku",
-        date: "March 7, 2017 11:59am (0 day ago)",
+        date: "2017-03-10",
         Help_topic: "ACCOUNT BILLING",
         status: "Open",
         name: "mary An Camarador",
@@ -79,7 +79,7 @@ var details = [
     },
     data7 = {
         title: "testing issue number seven test nana",
-        date: "March 9, 2017 11:59am (0 day ago)",
+        date: "2017-03-09",
         Help_topic: "REGISTRATION",
         status: "Open",
         name: "mary An Camarador",
@@ -92,7 +92,7 @@ var details = [
     },
     data8 = {
         title: "testing issue number eight test hachi",
-        date: "March 9, 2017 11:59am (0 day ago)",
+        date: "2017-03-09",
         Help_topic: "PAY VIA QR",
         status: "Open",
         name: "mary An Camarador",
@@ -105,7 +105,7 @@ var details = [
     },
     data9 = {
         title: "testing issue number nine test kyuu",
-        date: "March 9, 2017 11:59am (0 day ago)",
+        date: "2017-03-09",
         Help_topic: "PAY VIA QR",
         status: "Open",
         name: "mary An Camarador",
@@ -118,7 +118,7 @@ var details = [
     },
     data10 = {
         title: "testing issue number ten test juu",
-        date: "March 9, 2017 11:59am (0 day ago)",
+        date: "2020-11-24",
         Help_topic: "ACCOUNT BILLING",
         status: "Open",
         name: "mary An Camarador",

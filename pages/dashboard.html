@@ -29,7 +29,7 @@
           <div class="bg-secondary p-1 text-white" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
             <p class="ml-3 mt-3">OPEN TICKETS (10)<span class="mr-2 float-right"><i class='fas fa-sort-down' style='font-size:24px'></i></span></p>
           </div>
-          <div ng-repeat="Ticket in tickets">
+          <div ng-repeat="Ticket in tickets | orderBy: '-date'">
             
             
               <div class="mb-0 collapse" id="collapseExample" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
@@ -47,7 +47,7 @@
             <div class="card-list-right" style="width:100%;">
               <div class="mb-3">
                 <p class="font-weight-bold text-info">{{detail.title | uppercase}}</p>
-                <p class="text-info">{{ detail.date }}</p>
+                <p class="text-info">{{ detail.date | date }}</p>
                 <div class="d-inline text-white p-1" ng-style="{'background-color': (detail.Help_topic == 'ACCOUNT BILLING') ? '#ff4d4d' : '#ffd633'}">{{ detail.Help_topic }}</div>
               </div>              
               <div class="row text-info">

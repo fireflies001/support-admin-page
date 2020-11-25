@@ -6,7 +6,8 @@ app.controller('dashboardController', ['$scope', function($scope){
          $scope.tickets[i] = {
              "ticket": details[i].title,
              "type" : details[i].Help_topic,
-             "index_num": i
+             "index_num": i,
+             "date": details[i].date
          };
      }
      $scope.viewValue = function(num) {
